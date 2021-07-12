@@ -13,6 +13,13 @@ struct ContentView: View {
 
             Text("Hello kaffe")
                 .padding()
+            
+            Button {
+                print("Klik")
+            } label: {
+                Text("Klik her")
+            }
+
 
         }
     }
